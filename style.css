@@ -4,3 +4,117 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background: #FAF4F2;
+  font-family: "Poppins", serif;
+}
+.width-1140{
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+/*----------Main(I'm Mohammad Reza)--------*/
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  width: 475px;
+  color: #222;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+  margin: 12px 201px 7px 32px;
+}
+.main__Mohammad__Reza p{
+  width: 509px;
+  color: #222;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 167px 54px 32px;
+}
+.main__Mohammad__Reza img{
+  width: 240px;
+  height: 48px;
+  flex-shrink: 0;
+  margin-left: 32px;
+}
+.main__buttons button:first-child{
+  width: 151px;
+  height: 55px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 10px;
+  background: #FF2950;
+  color: #F9F9F9;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 17px 30px 0 34px;
+}
+.main__buttons button:last-child{
+  width: 153px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid #FF9B70;
+  color: rgba(34, 34, 34, 0.50);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+.main__photo__Mohammad__Reza{
+  width: 406px;
+  height: 406px;
+  flex-shrink: 0;
+  margin: 0 26px 63px 0;
+}
+/*----------------section 120+ Completed Projects---------------------*/
+.section__Completed__Projects{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:32px;
+  margin: 125px 0;
+  width: 1140px;
+  height: 519px;
+  flex-shrink: 0;
+  border-radius: 35px;
+  background: #FF7315;
+}
+.section__Completed__Projects div h2:first-child{
+  color: #F9F9F9;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+}
+.section__Completed__Projects div h2:nth-child(2){
+  color: #F9F9F9;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+.section__Completed__Projects div h3{
+  color: #F9F9F9;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+}
+.section__Completed__Projects div p{
+  width: 570px;
+  color: #F9F9F9;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+}
