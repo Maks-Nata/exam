@@ -118,3 +118,93 @@ h1{
   font-weight: 400;
   line-height: 45px;
 }
+/*-------section__Why__Hire__me?*/
+.title__Why__Hire__me {
+  color: #222;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+  margin-bottom: 100px;
+}
+.section__Why__Hire__me{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+
+}
+.section__Why__Hire__me div{
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.section__Why__Hire__me div div{
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+  background: rgba(34, 34, 34, 0.10);
+ }
+.section__Why__Hire__me div h3{
+  color: #222;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 51px;
+  margin-bottom: 12px;
+}
+.section__Why__Hire__me div p{
+  width: 240px;
+  color: rgba(34, 34, 34, 0.50);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+/*----Section Portfolio----------*/
+.title__Portfolio{
+  color: #222;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  margin-top: 125px;
+  margin-bottom: 64px;
+}
+.section__Portfolio-grid{
+  display: grid;
+  margin: 0 81px;
+  gap: 24px;
+  grid-template-columns: repeat(3,310px);
+  grid-template-rows: repeat(3,300px);
+  grid-template-areas:
+    "website-Start__your__Business  company-postcard pages"
+"pizzeria__brochure logo__Mockup Mockup__postcards";
+}
+.section__Portfolio-grid img:nth-child(1){
+  grid-area: website-Start__your__Business;
+}
+.section__Portfolio-grid img:nth-child(2){
+  grid-area: company-postcard;
+}
+.section__Portfolio-grid img:nth-child(3){
+  grid-area: pages;
+}
+.section__Portfolio-grid img:nth-child(4){
+  grid-area: pizzeria__brochure;
+}
+.section__Portfolio-grid img:nth-child(5){
+  grid-area: logo__Mockup;
+}
+.section__Portfolio-grid img:nth-child(6){
+  grid-area:Mockup__postcards;
+}
