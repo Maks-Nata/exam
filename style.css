@@ -41,14 +41,11 @@ h1{
 .main__Mohammad__Reza img{
   width: 240px;
   height: 48px;
-  flex-shrink: 0;
   margin-left: 32px;
 }
 .main__buttons button:first-child{
   width: 151px;
   height: 55px;
-  flex-shrink: 0;
-  border: none;
   border-radius: 10px;
   background: #FF2950;
   color: #F9F9F9;
@@ -61,7 +58,6 @@ h1{
 .main__buttons button:last-child{
   width: 153px;
   height: 55px;
-  flex-shrink: 0;
   border-radius: 10px;
   border: 2px solid #FF9B70;
   color: rgba(34, 34, 34, 0.50);
@@ -74,11 +70,10 @@ h1{
 .main__photo__Mohammad__Reza{
   width: 406px;
   height: 406px;
-  flex-shrink: 0;
   margin: 0 26px 63px 0;
 }
 /*----------------section 120+ Completed Projects---------------------*/
-.section__Completed__Projects{
+.Completed__Projects{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -86,32 +81,31 @@ h1{
   margin: 125px 0;
   width: 1140px;
   height: 519px;
-  flex-shrink: 0;
   border-radius: 35px;
   background: #FF7315;
 }
-.section__Completed__Projects div h2:first-child{
+.Completed__Projects div h2:first-child{
   color: #F9F9F9;
   font-size: 72px;
   font-style: normal;
   font-weight: 600;
   line-height: 62px;
 }
-.section__Completed__Projects div h2:nth-child(2){
+.Completed__Projects div h2:nth-child(2){
   color: #F9F9F9;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 36px;
 }
-.section__Completed__Projects div h3{
+.Completed__Projects div h3{
   color: #F9F9F9;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
   line-height: 62px;
 }
-.section__Completed__Projects div p{
+.Completed__Projects div p{
   width: 570px;
   color: #F9F9F9;
   font-size: 24px;
@@ -129,14 +123,14 @@ h1{
   line-height: 62px;
   margin-bottom: 100px;
 }
-.section__Why__Hire__me{
+.Why__Hire__me{
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 60px;
 
 }
-.section__Why__Hire__me div{
+.Why__Hire__me div{
   width: 240px;
   display: flex;
   flex-direction: column;
@@ -145,13 +139,13 @@ h1{
 
 
 }
-.section__Why__Hire__me div div{
+.Why__Hire__me div div{
   width: 98px;
   height: 98px;
   border-radius: 50%;
   background: rgba(34, 34, 34, 0.10);
  }
-.section__Why__Hire__me div h3{
+.Why__Hire__me div h3{
   color: #222;
   text-align: center;
   font-size: 24px;
@@ -161,7 +155,7 @@ h1{
   margin-top: 51px;
   margin-bottom: 12px;
 }
-.section__Why__Hire__me div p{
+.Why__Hire__me div p{
   width: 240px;
   color: rgba(34, 34, 34, 0.50);
   text-align: center;
@@ -181,7 +175,7 @@ h1{
   margin-top: 125px;
   margin-bottom: 64px;
 }
-.section__Portfolio-grid{
+.Portfolio-section-grid{
   display: grid;
   margin: 0 81px;
   gap: 24px;
@@ -191,26 +185,26 @@ h1{
     "website-Start__your__Business  company-postcard pages"
 "pizzeria__brochure logo__Mockup Mockup__postcards";
 }
-.section__Portfolio-grid img:nth-child(1){
+.Portfolio-section-grid img:nth-child(1){
   grid-area: website-Start__your__Business;
 }
-.section__Portfolio-grid img:nth-child(2){
+.Portfolio-section-grid img:nth-child(2){
   grid-area: company-postcard;
 }
-.section__Portfolio-grid img:nth-child(3){
+.Portfolio-section-grid img:nth-child(3){
   grid-area: pages;
 }
-.section__Portfolio-grid img:nth-child(4){
+.Portfolio-section-grid img:nth-child(4){
   grid-area: pizzeria__brochure;
 }
-.section__Portfolio-grid img:nth-child(5){
+.Portfolio-section-grid img:nth-child(5){
   grid-area: logo__Mockup;
 }
-.section__Portfolio-grid img:nth-child(6){
+.Portfolio-section-grid img:nth-child(6){
   grid-area:Mockup__postcards;
 }
 /*-----------Section Global Love-----------*/
-.section__Global__Love{
+.Global__Love{
   width: 100%;
   height: 643px;
   background: #FF7315;
@@ -218,7 +212,7 @@ h1{
 
 
 }
-.section__Global__Love__container{
+.Global__Love__container{
   width: 1140px;
   display: flex;
   align-items: center;
@@ -227,7 +221,7 @@ h1{
   gap:82px;
 
 }
-.section__Global__Love__title{
+.Global__Love__title{
   width: 609px;
   color: #F9F9F9;
   text-align: center;
@@ -239,16 +233,15 @@ h1{
   padding-top: 48px;
 
 }
-.section__Global__Love__container div{
+.Global__Love__container div{
   width: 529px;
   height: 179px;
-  flex-shrink: 0;
   border-radius: 30px;
   background: #F9F9F9;
   margin-top: 111px;
 
 }
-.section__Global__Love div div p{
+.Global__Love div div p{
   width: 419px;
   color: #222;
   font-size: 24px;
@@ -256,14 +249,14 @@ h1{
   font-weight: 400;
   line-height: normal;
 }
-.section__Global__Love div div p:nth-child(1){
+.Global__Love div div p:nth-child(1){
   margin: 24px auto 47px auto;
 }
-.section__Global__Love div div p:nth-child(2){
+.Global__Love div div p:nth-child(2){
   margin: 24px auto 11px auto;
 }
 /*---------Section Price Plan-----------*/
-.section__Price__Plans__title{
+.title__Price__Plans{
   color: #222;
   font-size: 48px;
   font-style: normal;
@@ -280,10 +273,9 @@ h1{
   margin: 64px auto 100px auto;
   gap:67px;
 }
-.section__Price__Plans__container div:first-child{
+.Price__Plans__container div:first-child{
   width: 335px;
   height: 66px;
-  flex-shrink: 0;
   border-radius: 15px 15px 0 0;
   background: #FF9B70;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
@@ -297,15 +289,14 @@ h1{
   line-height: 123.6%;
   text-transform: capitalize;
 }
-.section__Price__Plans__container{
+.Price__Plans__container{
   width: 335px;
   height: 500px;
-  flex-shrink: 0;
   border-radius: 15px;
   background: #F9F9F9;
   box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
 }
-.section__Price__Plans__container h5{
+.Price__Plans__container h5{
 text-align: center;
   color: #2B2B2B;
   font-size: 32px;
@@ -316,7 +307,7 @@ text-align: center;
   margin: 36px auto 29px;
   display: block;
 }
-.section__Price__Plans__container h5 span{
+.Price__Plans__container h5 span{
   color: #2B2B2B;
   font-kerning: none;
   font-feature-settings: 'calt' off;
@@ -327,13 +318,13 @@ text-align: center;
   text-transform: capitalize;
   opacity: 0.5;
 }
-.section__Price__Plans__container div:nth-child(n+2){
+.Price__Plans__container div:nth-child(n+2){
   display: flex;
   align-items: center;
   gap:16px;
   margin-left: 48px;
 }
-.section__Price__Plans__container div:nth-child(n+2) p{
+.Price__Plans__container div:nth-child(n+2) p{
   color:  #222;
   font-kerning: none;
   font-feature-settings: 'calt' off;
@@ -344,23 +335,23 @@ text-align: center;
   text-transform: capitalize;
   margin-bottom: 16px;
 }
-.section__Price__Plans__container div:nth-child(n+2) svg{
+.Price__Plans__container div:nth-child(n+2) svg{
   width: 24.885px;
   height: 24px;
   margin-bottom: 16px;
 }
-.section__Price__Plans__container-seo p,
-.section__Price__Plans__container-seo svg,
-.section__Price__Plans__container-logo p,
-.section__Price__Plans__container-logo svg,
-.section__Price__Plans__container-20GB p,
-.section__Price__Plans__container-20GB svg,
-.section__Price__Plans__container-wordPress p,
-.section__Price__Plans__container-website p,
-.section__Price__Plans__container-wordPress svg,
-.section__Price__Plans__container-website svg,
-.section__Price__Plans__container-users p,
-.section__Price__Plans__container-users svg
+.Price__Plans__container-seo p,
+.Price__Plans__container-seo svg,
+.Price__Plans__container-logo p,
+.Price__Plans__container-logo svg,
+.Price__Plans__container-20GB p,
+.Price__Plans__container-20GB svg,
+.Price__Plans__container-wordPress p,
+.Price__Plans__container-website p,
+.Price__Plans__container-wordPress svg,
+.Price__Plans__container-website svg,
+.Price__Plans__container-users p,
+.Price__Plans__container-users svg
 {
   opacity: 0.5;
   }
@@ -368,7 +359,6 @@ text-align: center;
 .contact-email{
   width: 1110px;
   height: 224px;
-  flex-shrink: 0;
   border-radius: 25px;
   background:#FF7315;
   display: flex;
